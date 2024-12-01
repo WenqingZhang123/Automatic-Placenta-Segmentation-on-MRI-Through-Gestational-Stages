@@ -1,0 +1,18 @@
+{
+    "name": "Placenta Segmentation",
+    "description": "Segmentation of Placenta MRI Data",
+    "tensorImageSize": "3D",
+    "reference": "Washington University in St. Louis",
+    "licence": "CC BY-NC 4.0",
+    "release": "2024-11-21",
+    "labels": {
+        "background": 0,
+        "Placenta in Uterus": 1
+    },
+    "numTraining": 96,
+    "numTest": 36,
+    "file_ending": ".nii.gz",
+    "channel_names": {
+        "0": "MRI"
+    }
+}
