@@ -3,6 +3,23 @@
 
 ---
 
+## Table of Contents
+- [Environment Setup](#environment-setup)
+- [Original File Structure](#original-file-structure)
+- [Processing Files into Standard MRI Dataset](#processing-files-into-standard-mri-dataset)
+- [nnU-Net Folder Structure](#nnu-net-folder-structure)
+- [Dataset Preparation](#dataset-preparation)
+- [Running nnU-Net](#running-nnu-net)
+  - [Data Conversion and Preprocessing](#1-data-conversion-and-preprocessing)
+  - [Model Training](#2-model-training)
+  - [Model Inference](#3-model-inference)
+  - [Model Evaluation](#4-model-evaluation)
+  - [Resuming Training](#5-resuming-training)
+- [Notes](#notes)
+- [References](#references)
+
+---
+
 ## Environment Setup
 1. Install **Pytorch**.
 2. Install **Anaconda**.
@@ -102,3 +119,9 @@ Run the following scripts in `nnUNetFrame/nnUNet/nnunetv2`:
 1. Run each script in its respective folder and ensure parameters are correctly configured.
 2. Follow the sequence of data conversion, training, inference, and evaluation.
 3. Adjust hyperparameters and strategies based on project needs.
+
+---
+
+## References
+1. Isensee, F., Schell, M., Pflueger, I., Brugnara, G., Bonekamp, D., Neuberger, U., ... & Maier-Hein, K. H. (2021). nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. *Nature Methods*, 18(2), 203-211.
+2. Official nnU-Net GitHub Repository: [https://github.com/MIC-DKFZ/nnUNet](https://github.com/MIC-DKFZ/nnUNet)
